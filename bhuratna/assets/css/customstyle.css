@@ -1,6 +1,6 @@
 body {
-    background: #f7f7ec !important;
-    font-family: Montserrat !important;
+    background: #fff !important;
+    font-family: "Josefin Sans", sans-serif;
 }
 .mobile-header {
     display: flex;
@@ -67,12 +67,11 @@ i.fa-solid.fa-xmark {
 	text-decoration: none;
 	color: #000;
 }
-.main
-{
-    background-image: url('../img/alepa/left.webp');
-    background-position:bottom;
-   
 
+.main {
+    background-image: url('../img/alepa/left.webp');
+    background-size: cover;
+    background-position: bottom;
 }
 header.desktop-header {
 
@@ -187,7 +186,7 @@ ul.dropdown li{
     color: #ffffff;
     background-color:#a42867;
     transition: 1s ease-in-out;
-    background: #4F95DA;
+    background: #d8b46a;
 
 }
 
@@ -215,7 +214,7 @@ img.img-fluid.slider {
     line-height:24px;
     letter-spacing: 0px;
     text-transform: none;
-    font-family: Montserrat;
+    font-family: "Josefin Sans", sans-serif;
 
 }
 .radio
@@ -238,7 +237,7 @@ img.img-fluid.slider {
 
  .title {
     font-size: 2.8rem;
-    font-family: Montserrat;
+    font-family: "Josefin Sans", sans-serif;
 
 }
 .shop{
@@ -390,7 +389,7 @@ div#Multifloral {
 	margin-bottom: 115px;
 }
 .cart__layout_right {
-	font-family: Montserrat;
+    font-family: "Josefin Sans", sans-serif;
 	font-size: 10px;
 	font-weight: bold;
 	color: var(--color-title);
@@ -421,7 +420,7 @@ div#Multifloral {
 }
 .cart__layout_right .span{
  
-    font-family: Montserrat;
+    font-family: "Josefin Sans", sans-serif;
         font-size: 10px;
         font-weight: bold;
         text-transform: uppercase;
@@ -522,7 +521,7 @@ div#Multifloral {
 }
 body
 {
-    font-family: Montserrat;
+    font-family: "Josefin Sans", sans-serif;
 }
 .product-title {
     text-align: center;

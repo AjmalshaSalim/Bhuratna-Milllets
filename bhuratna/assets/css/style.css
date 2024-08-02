@@ -50,7 +50,7 @@ html, body, .site-wrapper {
 }
 .logo-device
 {
-  width: 50%;
+  width: 40%;
 
     mix-blend-mode: darken;
 
@@ -62,9 +62,11 @@ body {
   font-style: normal;
   font-weight: normal;
   visibility: visible;
-  font-family: "Open Sans", sans-serif;
   color: #333333;
   position: relative;
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 body[data-rtl=rtl] {
   direction: rtl;
@@ -72,15 +74,17 @@ body[data-rtl=rtl] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
   color: #333333;
-  font-weight: 400;
+  font-weight: 900;
   margin-top: 0;
   line-height: 1.2;
+  padding-left: 6%;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 46px;
+  margin-left: 10%;
+  text-align: left;
 }
 @media only screen and (max-width: 767px) {
   h1 {
@@ -230,7 +234,7 @@ img {
 }
 
 #scrollUp {
-  background: #222;
+  background: #a42867;
   width: 60px;
   height: 60px;
   line-height: 55px;
@@ -244,7 +248,7 @@ img {
   transition: all 0.3s ease-in-out;
 }
 #scrollUp:hover {
-  background: #a42867;
+  background: #d8b46a;
 }
 
 @media (min-width: 1200px) {
@@ -643,7 +647,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.5px;
-  font-family: "Open Sans", sans-serif;
   line-height: 1;
   margin-top: 10px;
 }
@@ -680,7 +683,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .page-pagination li {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
   color: #333333;
   text-align: center;
   margin: 5px 5px;
@@ -1032,7 +1034,7 @@ header.header.is-sticky .header-bottom {
 
 /*-- Header Top --*/
 .header-top {
-  background-color: #ffffff;
+  background-color: #ffff;
   line-height: 50px;
   border-bottom: 1px solid #e5e5e5;
   padding: 5px 0;
@@ -1400,12 +1402,12 @@ header.header.is-sticky .header-bottom {
 .header-search-toggle {
   background-color: transparent;
   border: none;
-  color: #9a9a9a;
-  padding: 0;
+  color: #a42867;
+  padding-top: 3px;
   width: 35px;
   height: 35px;
   line-height: 30px;
-  border: 2px solid #9a9a9a;
+  border: 2px solid #a42867;
   border-radius: 50%;
 }
 .header-search-toggle i {
@@ -1496,13 +1498,13 @@ header.header.is-sticky .header-bottom {
 .header-cart > a {
   background-color: transparent;
   border: none;
-  color: #9a9a9a;
-  padding: 0;
+  color: #a42867;
+  padding-top: 3px;
   line-height: 1;
   width: 35px;
   height: 35px;
   line-height: 30px;
-  /* border: 2px solid #9a9a9a; */
+  border: 2px solid #a42867;
   border-radius: 50%;
   text-align: center;
   position: relative;
@@ -1671,7 +1673,6 @@ ul.cart-items li {
   font-size: 15px;
   line-height: 14px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
   color: #333333;
   text-transform: uppercase;
   display: block;
@@ -1757,7 +1758,6 @@ ul.cart-items li {
   margin-bottom: 0;
 }
 .sub-menu li a {
-  font-family: "Open Sans", sans-serif;
   color: #333333;
   display: block;
   font-size: 13px;
@@ -2024,7 +2024,6 @@ ul.cart-items li {
 .mobile-menu .mean-bar .mean-nav > ul li a {
   font-size: 13px;
   display: block;
-  font-family: "Open Sans", sans-serif;
   color: #333333;
   font-weight: 600;
   text-transform: uppercase;
